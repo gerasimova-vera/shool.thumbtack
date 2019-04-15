@@ -23,7 +23,7 @@ public class TestFirstSteps {
     }
 
     @Test
-    protected void testDiv() {
+    public void testDiv() {
         FirstSteps firstSteps = new FirstSteps();
         assertEquals(1, firstSteps.div(2, 2));
         assertEquals(0, firstSteps.div(1, 2));
